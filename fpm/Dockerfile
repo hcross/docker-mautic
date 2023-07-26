@@ -1,4 +1,5 @@
-FROM php:7.4-fpm
+ARG ARCH=
+FROM ${ARCH}php:7.4-fpm
 
 LABEL vendor="Mautic"
 LABEL maintainer="Luiz Eduardo Oliveira Fonseca <luiz@powertic.com>"

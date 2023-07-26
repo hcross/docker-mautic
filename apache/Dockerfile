@@ -1,4 +1,5 @@
-FROM php:7.4-apache
+ARG ARCH=
+FROM ${ARCH}php:7.4-apache
 
 LABEL vendor="Mautic"
 
