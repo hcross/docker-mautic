@@ -13,7 +13,7 @@ jobs:
     strategy:
       matrix:
         image: [apache, fpm]
-        platform: [linux/amd64, linux/arm64]
+        platform: [linux/amd64]
     steps:
       - name: Checkout
         uses: actions/checkout@v2
